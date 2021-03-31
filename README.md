@@ -4,7 +4,7 @@ This is a repository for sorting algorithms I wrote and played around with as ad
 
 These algorithms were either written from understanding (and hence may have issues with different inputs or can be implemented in a more efficient manner) or based on provided pseudocodes during lectures.
 
-## Algorithms Currently Implemented (Iterative)
+## Algorithms Currently Implemented
 
 - Naive Matching
   - Nested loops that theoretically has a time complexity of O(nm) (I think)
