@@ -1,6 +1,6 @@
 # String Matching Algorithms
 
-This is a repository for sorting algorithms I wrote and played around with as additional exercise for WIA2005 - Algorithm Design and Analysis and part of our group Viva.
+This is a repository for string matching algorithms I wrote and played around with as additional exercise for WIA2005 - Algorithm Design and Analysis and part of our group Viva.
 
 These algorithms were either written from understanding (and hence may have issues with different inputs or can be implemented in a more efficient manner) or based on provided pseudocodes during lectures.
 
