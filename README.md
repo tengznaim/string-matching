@@ -8,6 +8,10 @@ These algorithms were either written from understanding (and hence may have issu
 
 - Naive Matching
   - Nested loops that theoretically has a time complexity of O(nm) (I think)
+- Finite Automata
+  - Uses a self created dictionary approach to hold the characters and the state they lead to for each state.
+  - Currently works only to find the first match of the pattern.
+  - Theoretically has a time complexity of (O(m^2 + n)) where m^2 is the nested loop used to generate the transition table and n is the actual searching.
 - Knuth Morris Pratt Algorithm (KMP)
   - Single function implementation of the GFG guide, can be split into two functions to handle creating the LPS array.
   - Time complexity is theoretically O(n+m), n being the length of the string and m being the length of the pattern.
@@ -23,3 +27,7 @@ These algorithms were either written from understanding (and hence may have issu
 - GFG Guide - https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
 - LPS Explanation - https://www.youtube.com/watch?v=tWDUjkMv6Lc
 - Concept Explanation - https://www.youtube.com/watch?v=V5-7GzOfADQ
+
+2. Finite Automaton
+
+- Concept Explanation - https://www.youtube.com/watch?v=M_XpGQyyqIQ

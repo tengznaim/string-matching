@@ -42,17 +42,18 @@ def kmp(string, pattern):
                 i += 1
 
 
-string = "algorithmisfun"
-pattern = "algo"
-n = len(string)
+string = "ffff"
+pattern = "fff"
+kmp(string, pattern)
+# n = len(string)
 
-for i in range(1, 101):
-    ind_1 = random.randint(0, n)
-    ind_2 = random.randint(0, n)
+# for i in range(1, 101):
+#     ind_1 = random.randint(0, n)
+#     ind_2 = random.randint(0, n)
 
-    while ind_1 == ind_2:
-        ind_2 = random.randint(0, n)
+#     while ind_1 == ind_2:
+#         ind_2 = random.randint(0, n)
 
-    pattern = string[min(ind_1, ind_2):max(ind_1, ind_2)]
-    print("Test {i}: Pattern = {pattern}".format(i=i, pattern=pattern))
-    kmp(string, pattern)
+#     pattern = string[min(ind_1, ind_2):max(ind_1, ind_2)]
+#     print("Test {i}: Pattern = {pattern}".format(i=i, pattern=pattern))
+#     kmp(string, pattern)

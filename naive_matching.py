@@ -12,6 +12,6 @@ def naive(string, pattern):
                 i=i-len(pattern)))
 
 
-pattern = "abcdf"
-string = "abcdfabcdfabcdf"
+pattern = "fff"
+string = "ffff"
 naive(string, pattern)
